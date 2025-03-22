@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.mean-page{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/Background.jpg) center no-repeat scroll;
+    background-size: cover;
+}
+
+.overlay-mean{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+}
+
+
+.header h1,ul{
+    float: left;
+}
+
+.header h1{
+    margin-top: 15px;
+    margin-left: 10px;
+    color:  #F5F5F5;
+}
+.header button{
+    float: right;
+    margin: 10px 20px;
+    background-color: #1A5E10;
+    color: white;
+    transition: 2s;
+}
+
+.header button:hover{
+    background-color: #000000;
+    color: #1A5E10;
+}
+
+.header{
+    overflow: auto;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline;
+}
+.header ul {
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.header ul a{
+    text-decoration: none;
+    color:  #F5F5F5;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.header ul a:hover{
+    color: orangered;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contaner-c{
+    width: 90%;
+    margin: auto;
+}
+
+
+.parent-c h2{
+    font-size: 350%;
+    width: fit-content;
+    margin-top: 40px;
+    float: left;
+    margin-top: 140px;
+    color:  #F5F5F5;
+}
+
+.div-c{
+    float: right;
+    width: 40%;
+    height: 300px;
+    margin-top: 100px;
+}
+.btn2{
+    margin-left: 30px;
+}
+.div-c p{
+    font-size: 30px;
+    padding: 40px 30px;
+    color: #EDEDED;
+}
+
+.btn2{
+    background-color: #EDEDED;
+    color: black;
+    transition: 2s;
+}
+.btn3{
+    background-color: #000000;
+    color: #1A5E10;
+    transition: 2s;
+}
+.btn3:hover{
+    background-color: #EDEDED;
+    color: black;
+}
+.btn2:hover{
+    background-color: #000000;
+    color: #1A5E10;
+}
+
+.div-c1{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 25px;
+}
+
+.div-c1 img{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.div-c1 h3{
+    font-size: 200%;
+   margin: 4% 0 4% 5%;
+}
+.div-c1 p{
+    font-size:18px;
+   margin: 4% 0 4% 5%;
+}
+
+
+h4{
+    float: left;
+    font-size: 800%;
+    margin-top: 30px;
+    margin-left: 20px;
+    color:  #F5F5F5;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section2{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-sec2{
+    width: 90%;
+    margin: auto;
+}
+
+.iamges-sec2 div{
+    width: 30%;
+    height: 250px;
+    float: left;
+    border-radius: 25px;
+
+}
+
+.parent-sec2{
+    text-align: center;
+}
+
+.img2{
+    margin: 0 5%;
+    background: url(../images/phn2.jpg) center scroll no-repeat;
+    background-size: cover;
+}
+.img1{
+    background: url(../images/phn3.jpg) center scroll no-repeat;
+    background-size: cover;
+
+}
+.img3{
+    background: url(../images/phn4.jpg) center scroll no-repeat;
+    background-size: cover;
+
+}
+
+.icons-sec2{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.icons-sec2 i{
+    margin-left: 40px;
+    color: #1A5E10;
+}
+
+.icons-sec2 i:hover{
+    color: #E67E22;
+}
+
+.comtent-sec2{
+    font-size: 250%;
+    margin-bottom: 60px;
+    color: #333;
+}
+.comtent-sec2::before{
+    content: 'Golf is a precision club-and-ball sport where players use various clubs to hit balls into a series of holes on a course in as few strokes as possible.';
+    color: #1A5E10;
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section3{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-sec3{
+    width: 95%;
+    margin: auto;
+}
+
+.item-golf1{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: #1A5E10;
+    color: white;
+    position: relative;
+    border-radius: 25px;
+}
+.item-golf{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+.g1{
+    margin: 0 5%;
+}
+
+.content-sec3{
+    font-size: 250%;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.item-golf1 h2{
+    position: absolute;
+    right: 10px;
+    font-size: 220%;
+    width: 300px;
+    top: 20px;
+}
+.item-golf1 p{
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    width: 300px;
+    font-size: 22px;
+}
+
+.item-golf1 img{
+    margin: 2.5% 2.5%; 
+    border-radius: 25px;
+}
+
+.div-ph,.div-ph1 , .item-golf1 div{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.div-ph{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    text-align: center;
+    color: #000000;
+}
+.div-ph h3{
+    margin-top: 7px;
+}
+.div-ph1 h3{
+    margin-top: 7px;
+}
+
+.item-golf{
+    position: relative;
+    border-radius: 30px;
+}
+.item-golf img{
+    border-radius: 30px;
+}
+
+.div-ph1{
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.content-sec4{
+    font-size: 200%;
+    width: 550px;
+    margin: 40px 0 20px 40px;
+}
+
+.tag-sec4 {
+    position: absolute;
+    right: 0;
+    top: 100;
+}
+
+.tag-sec4 div{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 35px;
+    float: left;
+    background-color: #E7FF7D;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tag-sec4 div:hover{
+    background-color: #D0EE6A;
+}
+
+.tag-sec4 div h3{
+    margin-top: 10px;
+}
+
+.container-sec4{
+    width: 90%;
+    margin: auto;
+}
+
+.item-sec4{
+    position: relative;
+    width: 30%;
+    height: 300px;
+    float: left;
+    border-radius: 30px
+}
+.item-sec4 img{
+    border-radius: 30px
+    
+}
+.ims4{
+    margin: 0 5%;
+}
+
+.parent-cons4{
+    margin-top: 100px;
+}
+
+.overlay-item{
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item-sec4:hover .overlay-item{
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay-item div{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 30px 20px 30px 40px;
+    color: white;
+}
+
+.overlay-item h5{
+    position: relative;
+    top: 5px;
+}
+.overlay-item h2{
+    font-size: 300%;
+    color: white;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section5{
+    width: 100%;
+    height: 110vh;
+    background-color: #A6CE39;
+}
+
+.content-sec{
+    text-align: center;
+}
+.content-sec p{
+    font-size: 50px;
+    padding: 40px 40px;
+}
+
+.container-sec5{
+    width: 96%;
+    margin: auto;
+}
+
+.item-sec5 ,.photo{
+    width: 48%;
+    height: 400px;
+    float: left;
+    border: none;
+    border-radius: 30px;
+}
+
+.photo{
+    margin-left: 4%;
+}
+.photo img{
+    border-radius: 30px
+}
+
+.item-sec5{
+    background-color: #F5F5F5;
+}
+
+.item-sec5 h2{
+    font-size: 300%;
+    padding: 10px 10px;
+}
+.item-sec5 p{
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #333333;
+}
+.item-sec5 button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    background-color: #3A5F0B;
+    color: white;
+    margin: 20px 15px 20px 20px;
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #333333;
+}
+
+.maincontent{
+    width: 60%;
+    float: left;
+}
+.maincontent h2{
+    font-size: 400%;
+    color: #D0EE6A;
+    padding: 40px 40px;
+}
+
+.icons-footer{
+    width: 40%;
+    float: right;
+    padding: 40px 40px;
+}
+.icons-footer a{
+    color: white;
+    font-size: 20px;
+}
+
+.icons-footer ul li {
+    list-style-type: none;
+    margin-left: 400px;
+
+}
+
+.contact{
+    float: left;
+    font-size: 150%;
+    color: white;
+    margin-left: 40px;
+}
+
+
+
